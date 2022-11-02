@@ -1,7 +1,10 @@
 {
   "name": "image-sequence-onscroll-react-and-react-scrollmagic",
   "version": "1.0.0",
-  "description": null,
+  "description": "Balaji",
+  "engines": {
+    "node": "16.16.0"
+  },
   "keywords": [
     "react",
     "image sequence",
