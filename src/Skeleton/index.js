@@ -54,5 +54,4 @@ Skeleton.defaultProps = {
   wrapper: null,
   height: null,
   circle: false,
-  margin: 0
 };
