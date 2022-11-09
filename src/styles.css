@@ -105,26 +105,32 @@ body {
   padding: 0%;
   margin: 0%;
 }
-@media (min-width: 680px), screen and (orientation: portrait) {
+@media (max-width: 680px), screen and (orientation: portrait) {
   .heading{
     font-size: xx-large;
+
     margin-left: 0%;
 
   }
   .b1{
-    font-size: 40pt;
+    font-size: 30pt;
+    font-weight: bold;
     padding-top: 10%;
     
-    text-align: center;
+    text-align: right;
     
   }
   .b2{
     font-size: 30pt;
-    padding-top: 5%;
+    padding-top: 2%;
+    text-align: right;
+    font-weight: bold;
   }
   .b3{
-    font-size: 20pt;
-    padding-top: 5%;
+    font-size: 30pt;
+    padding-top: 2%;
+    text-align: right;
+    font-weight: bold;
   }
   .navItems{
     font-size: 8pt;
@@ -140,23 +146,28 @@ body {
   .content-image{
     
     width: 90vw;
+    height: 60vh;
     padding: 0%;
+    padding-bottom: 5%;
     
   }
   .container1{
     display: block;
+    margin: 5%;
+    
   }
   .newContainer{
     display: block;
   }
  
   .content{
-    font-size: large;
+    font-size: medium;
     padding: 0%;
     max-width: 90vw;
     margin: 0%;
 
   }
+  
   
   
   /* … */
