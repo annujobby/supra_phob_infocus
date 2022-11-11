@@ -1,36 +1,37 @@
-import A1 from "./t1.svg";
-import A2 from "./t2.svg";
-import A3 from "./t3.svg";
-import A4 from "./t4.svg";
-import A5 from "./t5.svg";
-import A6 from "./t6.svg";
-import A7 from "./t7.svg";
-import A8 from "./t8.svg";
-import A9 from "./t9.svg";
+// import A1 from "./t1.gif";
+import A1 from "./t1.gif";
+import A2 from "./t2.png";
+import A3 from "./t3.png";
+import A4 from "./t4.png";
+import A5 from "./t5.png";
+import A6 from "./t6.png";
+import A7 from "./t7.png";
+import A8 from "./t8.png";
+import A9 from "./t9.png";
 
-import A10 from "./t10.svg";
-import A11 from "./t11.svg";
-import A12 from "./t12.svg";
-import A13 from "./t13.svg";
-import A14 from "./t14.svg";
-import A15 from "./t15.svg";
-import A16 from "./t16.svg";
-import A17 from "./t17.svg";
-import A18 from "./t18.svg";
-import A19 from "./t19.svg";
+import A10 from "./t10.png";
+import A11 from "./t11.png";
+import A12 from "./t12.png";
+import A13 from "./t13.png";
+import A14 from "./t14.png";
+import A15 from "./t15.png";
+import A16 from "./t16.png";
+import A17 from "./t17.png";
+import A18 from "./t18.png";
+import A19 from "./t19.png";
 
-import A20 from "./t20.svg";
-import A21 from "./t21.svg";
-import A22 from "./t22.svg";
-import A23 from "./t23.svg";
-import A24 from "./t24.svg";
-import A25 from "./t25.svg";
-import A26 from "./t26.svg";
-import A27 from "./t27.svg";
-import A28 from "./t28.svg";
-import A29 from "./t29.svg";
+import A20 from "./t20.png";
+import A21 from "./t21.png";
+import A22 from "./t22.png";
+import A23 from "./t23.png";
+import A24 from "./t24.png";
+import A25 from "./t25.png";
+import A26 from "./t26.png";
+import A27 from "./t27.png";
+import A28 from "./t28.png";
+import A29 from "./t29.png";
 
-import A30 from "./t30.svg";
+import A30 from "./t30.png";
 import A31 from "./t31.png";
 import A32 from "./t32.png";
 import A33 from "./t33.png";
@@ -196,37 +197,7 @@ import A178 from "./t178.png";
 import A179 from "./t179.png";
 
 import A180 from "./t180.png";
-import A181 from "./t181.png";
-import A182 from "./t182.png";
-import A183 from "./t183.png";
-import A184 from "./t184.png";
-import A185 from "./t185.png";
-import A186 from "./t186.png";
-import A187 from "./t187.png";
-import A188 from "./t188.png";
-import A189 from "./t189.png";
 
-import A190 from "./t190.png";
-import A191 from "./t191.png";
-import A192 from "./t192.png";
-import A193 from "./t193.png";
-import A194 from "./t194.png";
-import A195 from "./t195.png";
-import A196 from "./t196.png";
-import A197 from "./t197.png";
-import A198 from "./t198.png";
-import A199 from "./t199.png";
-
-import A200 from "./t200.png";
-import A201 from "./t201.png";
-import A202 from "./t202.png";
-import A203 from "./t203.png";
-import A204 from "./t204.png";
-import A205 from "./t205.png";
-import A206 from "./t206.png";
-import A207 from "./t207.png";
-import A208 from "./t208.png";
-import A209 from "./t209.png";
 
 export const TruGlow = Array.of(
   A1,
@@ -427,36 +398,6 @@ export const TruGlow = Array.of(
   A179,
 
   A180,
-  A181,
-  A182,
-  A183,
-  A184,
-  A185,
-  A186,
-  A187,
-  A188,
-  A189,
-
-  A190,
-  A191,
-  A192,
-  A193,
-  A194,
-  A195,
-  A196,
-  A197,
-  A198,
-  A199,
-
-  A200,
-  A201,
-  A202,
-  A203,
-  A204,
-  A205,
-  A206,
-  A207,
-  A208,
-  A209,
+ 
   
 );

@@ -26,12 +26,54 @@ body {
       }
   }
 }
+.textContent{
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding-bottom: 2%;
+    font-size: 15pt;
+   
+}
+
+@keyframes float {
+	0% {
+		
+		transform: translatey(0px);
+	}
+	50% {
+		
+		transform: translatey(-20px);
+	}
+	100% {
+		
+		transform: translatey(0px);
+	}
+}
+
+.footerContent{
+    transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+    	
+}
 .container1 {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
   margin: 0 3rem;
+}
+.buttonCenter{
+    display: flex;
+    justify-content: center;
+}
+.button1{
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 10px 60px;
+    color: white;
+    background: #161616;
+    border: none;
 }
 .item {
   min-width: 40vw;
@@ -105,18 +147,22 @@ body {
       margin: 0 3rem;
   }
   .item {
-      min-width: 40vw;
+      min-width: 50vw;
   }
   .heading {
       font-size: 40pt;
       padding: 0.5rem;
       margin-left: 5%;
+      
   }
-
+  .tabText{
+    font-size: 15pt;
+    text-align: center;
+}
   .content {
       font-size: 20pt;
       padding: 0.5rem;
-      max-width: 40%;
+      max-width: 90%;
       margin-left: 5%;
   }
   .content-image {
@@ -281,6 +327,15 @@ body {
       max-width: 90vw;
       margin: 0%;
   }
+  .button1{
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 20pt;
+    padding: 10px 60px;
+    color: white;
+    background: #161616;
+    border: none;
+}
 }
 @media (max-width: 680px) and (orientation: portrait) {
   .heading {
@@ -327,7 +382,23 @@ body {
   .newContainer {
       display: block;
   }
-
+  .button1{
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 10pt;
+    padding: 10px 60px;
+    color: white;
+    background: #161616;
+    border: none;
+}
+.textContent{
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding-bottom: 5%;
+    font-size: 10pt;
+   
+}
   .content {
       font-size: medium;
       padding: 0%;
@@ -335,4 +406,8 @@ body {
       margin: 0%;
 
   }
+  .tabText{
+    font-size: 10pt;
+    text-align: center;
+}
 }
