@@ -395,7 +395,7 @@ import { useImage } from "../hooks";
 // };
 
 const TruGlowArray = () => {
-  // const [AA0, AA0S] = useImage(TruGlow[0]);
+  const [AA0, AA0S] = useImage(TruGlow[0]);
   const [AA1, AA1S] = useImage(TruGlow[1]);
   const [AA2, AA2S] = useImage(TruGlow[2]);
   const [AA3, AA3S] = useImage(TruGlow[3]);
@@ -594,42 +594,62 @@ const TruGlowArray = () => {
   const [AA179, AA179S] = useImage(TruGlow[179]);
 
   const [AA180, AA180S] = useImage(TruGlow[180]);
-  // const [AA181, AA181S] = useImage(TruGlow[181]);
-  // const [AA182, AA182S] = useImage(TruGlow[182]);
-  // const [AA183, AA183S] = useImage(TruGlow[183]);
-  // const [AA184, AA184S] = useImage(TruGlow[184]);
-  // const [AA185, AA185S] = useImage(TruGlow[185]);
-  // const [AA186, AA186S] = useImage(TruGlow[186]);
-  // const [AA187, AA187S] = useImage(TruGlow[187]);
-  // const [AA188, AA188S] = useImage(TruGlow[188]);
-  // const [AA189, AA189S] = useImage(TruGlow[189]);
+  const [AA181, AA181S] = useImage(TruGlow[181]);
+  const [AA182, AA182S] = useImage(TruGlow[182]);
+  const [AA183, AA183S] = useImage(TruGlow[183]);
+  const [AA184, AA184S] = useImage(TruGlow[184]);
+  const [AA185, AA185S] = useImage(TruGlow[185]);
+  const [AA186, AA186S] = useImage(TruGlow[186]);
+  const [AA187, AA187S] = useImage(TruGlow[187]);
+  const [AA188, AA188S] = useImage(TruGlow[188]);
+  const [AA189, AA189S] = useImage(TruGlow[189]);
 
-  // const [AA190, AA190S] = useImage(TruGlow[190]);
-  // const [AA191, AA191S] = useImage(TruGlow[191]);
-  // const [AA192, AA192S] = useImage(TruGlow[192]);
-  // const [AA193, AA193S] = useImage(TruGlow[193]);
-  // const [AA194, AA194S] = useImage(TruGlow[194]);
-  // const [AA195, AA195S] = useImage(TruGlow[195]);
-  // const [AA196, AA196S] = useImage(TruGlow[196]);
-  // const [AA197, AA197S] = useImage(TruGlow[197]);
-  // const [AA198, AA198S] = useImage(TruGlow[198]);
-  // const [AA199, AA199S] = useImage(TruGlow[199]);
+  const [AA190, AA190S] = useImage(TruGlow[190]);
+  const [AA191, AA191S] = useImage(TruGlow[191]);
+  const [AA192, AA192S] = useImage(TruGlow[192]);
+  const [AA193, AA193S] = useImage(TruGlow[193]);
+  const [AA194, AA194S] = useImage(TruGlow[194]);
+  const [AA195, AA195S] = useImage(TruGlow[195]);
+  const [AA196, AA196S] = useImage(TruGlow[196]);
+  const [AA197, AA197S] = useImage(TruGlow[197]);
+  const [AA198, AA198S] = useImage(TruGlow[198]);
+  const [AA199, AA199S] = useImage(TruGlow[199]);
 
-  // const [AA200, AA200S] = useImage(TruGlow[200]);
-  // const [AA201, AA201S] = useImage(TruGlow[201]);
-  // const [AA202, AA202S] = useImage(TruGlow[202]);
-  // const [AA203, AA203S] = useImage(TruGlow[203]);
-  // const [AA204, AA204S] = useImage(TruGlow[204]);
-  // const [AA205, AA205S] = useImage(TruGlow[205]);
-  // const [AA206, AA206S] = useImage(TruGlow[206]);
-  // const [AA207, AA207S] = useImage(TruGlow[207]);
-  // const [AA208, AA208S] = useImage(TruGlow[208]);
-  // const [AA209, AA209S] = useImage(TruGlow[209]);
+  const [AA200, AA200S] = useImage(TruGlow[200]);
+  const [AA201, AA201S] = useImage(TruGlow[201]);
+  const [AA202, AA202S] = useImage(TruGlow[202]);
+  const [AA203, AA203S] = useImage(TruGlow[203]);
+  const [AA204, AA204S] = useImage(TruGlow[204]);
+  const [AA205, AA205S] = useImage(TruGlow[205]);
+  const [AA206, AA206S] = useImage(TruGlow[206]);
+  const [AA207, AA207S] = useImage(TruGlow[207]);
+  const [AA208, AA208S] = useImage(TruGlow[208]);
+  const [AA209, AA209S] = useImage(TruGlow[209]);
 
+  const [AA210, AA210S] = useImage(TruGlow[210]);
+  const [AA211, AA211S] = useImage(TruGlow[211]);
+  const [AA212, AA212S] = useImage(TruGlow[212]);
+  const [AA213, AA213S] = useImage(TruGlow[213]);
+  const [AA214, AA214S] = useImage(TruGlow[214]);
+  const [AA215, AA215S] = useImage(TruGlow[215]);
+  const [AA216, AA216S] = useImage(TruGlow[216]);
+  const [AA217, AA217S] = useImage(TruGlow[217]);
+  const [AA218, AA218S] = useImage(TruGlow[218]);
+  const [AA219, AA219S] = useImage(TruGlow[219]);
+
+  const [AA220, AA220S] = useImage(TruGlow[220]);
+  const [AA221, AA221S] = useImage(TruGlow[221]);
+  const [AA222, AA222S] = useImage(TruGlow[222]);
+  const [AA223, AA223S] = useImage(TruGlow[223]);
+  const [AA224, AA224S] = useImage(TruGlow[224]);
+  const [AA225, AA225S] = useImage(TruGlow[225]);
+  const [AA226, AA226S] = useImage(TruGlow[226]);
+  const [AA227, AA227S] = useImage(TruGlow[227]);
+ 
 
 
   const newImages = Array.of(
-    // [AA0, AA0S],
+    [AA0, AA0S],
     [AA1, AA1S],
     [AA2, AA2S],
     [AA3, AA3S],
@@ -810,35 +830,53 @@ const TruGlowArray = () => {
     [AA178, AA178S],
     [AA179, AA179S],
     [AA180, AA180S],
-    // [AA181, AA181S],
-    // [AA182, AA182S],
-    // [AA183, AA183S],
-    // [AA184, AA184S],
-    // [AA185, AA185S],
-    // [AA186, AA186S],
-    // [AA187, AA187S],
-    // [AA188, AA188S],
-    // [AA189, AA189S],
-    // [AA190, AA190S],
-    // [AA191, AA191S],
-    // [AA192, AA192S],
-    // [AA193, AA193S],
-    // [AA194, AA194S],
-    // [AA195, AA195S],
-    // [AA196, AA196S],
-    // [AA197, AA197S],
-    // [AA198, AA198S],
-    // [AA199, AA199S],
-    // [AA200, AA200S],
-    // [AA201, AA201S],
-    // [AA202, AA202S],
-    // [AA203, AA203S],
-    // [AA204, AA204S],
-    // [AA205, AA205S],
-    // [AA206, AA206S],
-    // [AA207, AA207S],
-    // [AA208, AA208S],
-    // [AA209, AA209S],
+    [AA181, AA181S],
+    [AA182, AA182S],
+    [AA183, AA183S],
+    [AA184, AA184S],
+    [AA185, AA185S],
+    [AA186, AA186S],
+    [AA187, AA187S],
+    [AA188, AA188S],
+    [AA189, AA189S],
+    [AA190, AA190S],
+    [AA191, AA191S],
+    [AA192, AA192S],
+    [AA193, AA193S],
+    [AA194, AA194S],
+    [AA195, AA195S],
+    [AA196, AA196S],
+    [AA197, AA197S],
+    [AA198, AA198S],
+    [AA199, AA199S],
+    [AA200, AA200S],
+    [AA201, AA201S],
+    [AA202, AA202S],
+    [AA203, AA203S],
+    [AA204, AA204S],
+    [AA205, AA205S],
+    [AA206, AA206S],
+    [AA207, AA207S],
+    [AA208, AA208S],
+    [AA209, AA209S],
+    [AA210, AA210S],
+    [AA211, AA211S],
+    [AA212, AA212S],
+    [AA213, AA213S],
+    [AA214, AA214S],
+    [AA215, AA215S],
+    [AA216, AA216S],
+    [AA217, AA217S],
+    [AA218, AA218S],
+    [AA219, AA219S],
+    [AA220, AA220S],
+    [AA221, AA221S],
+    [AA222, AA222S],
+    [AA223, AA223S],
+    [AA224, AA224S],
+    [AA225, AA225S],
+    [AA226, AA226S],
+    [AA227, AA227S],
   );
   return newImages;
 };

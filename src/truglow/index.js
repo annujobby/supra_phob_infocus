@@ -195,8 +195,59 @@ import A176 from "./t176.png";
 import A177 from "./t177.png";
 import A178 from "./t178.png";
 import A179 from "./t179.png";
-
 import A180 from "./t180.png";
+
+import A181 from "./t181.png";
+import A182 from "./t182.png";
+import A183 from "./t183.png";
+import A184 from "./t184.png";
+import A185 from "./t185.png";
+import A186 from "./t186.png";
+import A187 from "./t187.png";
+import A188 from "./t188.png";
+import A189 from "./t189.png";
+import A190 from "./t190.png";
+import A191 from "./t191.png";
+
+import A192 from "./t192.png";
+import A193 from "./t193.png";
+import A194 from "./t194.png";
+import A195 from "./t195.png";
+import A196 from "./t196.png";
+import A197 from "./t197.png";
+import A198 from "./t198.png";
+import A199 from "./t199.png";
+import A200 from "./t200.png";
+import A201 from "./t201.png";
+import A202 from "./t202.png";
+
+import A203 from "./t203.png";
+import A204 from "./t204.png";
+import A205 from "./t205.png";
+import A206 from "./t206.png";
+import A207 from "./t207.png";
+import A208 from "./t208.png";
+import A209 from "./t209.png";
+import A210 from "./t210.png";
+import A211 from "./t211.png";
+
+import A212 from "./t212.png";
+import A213 from "./t213.png";
+import A214 from "./t214.png";
+import A215 from "./t215.png";
+import A216 from "./t216.png";
+import A217 from "./t217.png";
+import A218 from "./t218.png";
+import A219 from "./t219.png";
+import A220 from "./t220.png";
+import A221 from "./t221.png";
+import A222 from "./t222.png";
+
+import A223 from "./t223.png";
+import A224 from "./t224.png";
+import A225 from "./t225.png";
+import A226 from "./t226.png";
+import A227 from "./t227.png";
 
 
 export const TruGlow = Array.of(
@@ -398,6 +449,54 @@ export const TruGlow = Array.of(
   A179,
 
   A180,
+  A181,
+  A182,
+  A183,
+  A184,
+  A185,
+  A186,
+  A187,
+  A188,
+  A189,
+  A190,
+  A191,
+  A192,
+  A193,
+  A194,
+  A195,
+  A196,
+  A197,
+  A198,
+  A199,
+  A200,
+  A201,
+  A202,
+  A203,
+  A204,
+  A205,
+  A206,
+  A207,
+  A208,
+  A209,
+  A210,
+  A211,
+  A212,
+  A213,
+  A214,
+  A215,
+  A216,
+  A217,
+  A218,
+  A219,
+  A220,
+  A221,
+  A222,
+  A223,
+  A224,
+  A225,
+  A226,
+  A227
+
  
   
 );

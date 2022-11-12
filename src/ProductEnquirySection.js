@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 const Tab = styled.button`
   
-  padding: 10px 60px;
+  padding: 10px 40px;
   cursor: pointer;
   color: white;
   border: 0;
@@ -27,7 +27,7 @@ export default function ProductEnquirySection() {
     const [active, setActive] = useState(types[0].content);
 return(
     <>
-        <div style={{ display: 'flex',justifyContent: 'center', height: '80vh', width: '100vw'}}>
+        <div style={{ justifyContent: 'center'}}>
             <div style={{display: 'block'}}>
                 <div className="buttonCenter" ><button className="button1" >Product Enquiry</button></div>
                 <div className="buttonCenter" ><button className="button1" >Product Demo Request</button></div>
@@ -36,7 +36,7 @@ return(
         {types.map(type => (
           <Tab
           className="tabText"
-            style={{ margin: '2%', padding: '2%'}}
+            style={{ margin: '2%'}}
             key={type.id}
             active={active === type.content}
             onClick={() => setActive(type.content)}
