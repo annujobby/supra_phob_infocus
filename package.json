@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Balaji",
   "engines": {
-    "node": "16.16.0"
+    "node": "*"
   },
   "keywords": [
     "react",
@@ -16,7 +16,8 @@
     "react-dom": "16.8.6",
     "react-scripts": "3.0.1",
     "react-scroll": "^1.8.8",
-    "react-scrollmagic": "2.1.1"
+    "react-scrollmagic": "2.1.1",
+    "styled-components": "^5.3.6"
   },
   "devDependencies": {
     "typescript": "3.3.3"

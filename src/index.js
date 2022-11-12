@@ -5,21 +5,22 @@ import "./styles.css";
 import { Controller, Scene } from "react-scrollmagic";
 import Sequence from "./Sequence";
 import * as Scroll from 'react-scroll';
+import ProductEnquirySection from "./ProductEnquirySection";
 
 const App = () => {
   const ref = useRef();
-  const [animatePage, setAnimatePage] = useState(false);
-  let scroll = Scroll.animateScroll
-  useEffect(() => {
-    setAnimatePage(true)
-  },[]);
-  useEffect(() => {
-    scroll.scrollTo(300,{
-      smooth : true,
-      duration: 2000,
-      delay : 0
-    })
-  },[animatePage]);
+  // const [animatePage, setAnimatePage] = useState(false);
+  // let scroll = Scroll.animateScroll
+  // useEffect(() => {
+  //   setAnimatePage(true)
+  // },[]);
+  // useEffect(() => {
+  //   scroll.scrollTo(300,{
+  //     smooth : true,
+  //     duration: 2000,
+  //     delay : 0
+  //   })
+  // },[animatePage]);
 
 
   return (
@@ -31,10 +32,10 @@ const App = () => {
         <div className="navItems">
             <div className="navitem">CORPORATE</div>
             <div className="navitem">PRODUCTS</div>
-            <div className="navitem">CORPORATE</div>
+            <div className="navitem">SUPPORT</div>
         </div>
       </div>
-     
+      
       <Controller>
         <Scene duration="250%" triggerHook="onLeave" pin>
           {progress => (
@@ -44,6 +45,11 @@ const App = () => {
           )}
         </Scene>
       </Controller>
+
+      <ProductEnquirySection/>
+      <footer className="footerContent">
+        <p className="textContent">© 2022 Appasamy Associates Private Limited</p>
+      </footer>
     
     </div>
   );

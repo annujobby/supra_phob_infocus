@@ -395,7 +395,7 @@ import { useImage } from "../hooks";
 // };
 
 const TruGlowArray = () => {
-  // const [AA0, AA0S] = useImage(TruGlow[0]);
+  const [AA0, AA0S] = useImage(TruGlow[0]);
   const [AA1, AA1S] = useImage(TruGlow[1]);
   const [AA2, AA2S] = useImage(TruGlow[2]);
   const [AA3, AA3S] = useImage(TruGlow[3]);
@@ -626,10 +626,30 @@ const TruGlowArray = () => {
   const [AA208, AA208S] = useImage(TruGlow[208]);
   const [AA209, AA209S] = useImage(TruGlow[209]);
 
+  const [AA210, AA210S] = useImage(TruGlow[210]);
+  const [AA211, AA211S] = useImage(TruGlow[211]);
+  const [AA212, AA212S] = useImage(TruGlow[212]);
+  const [AA213, AA213S] = useImage(TruGlow[213]);
+  const [AA214, AA214S] = useImage(TruGlow[214]);
+  const [AA215, AA215S] = useImage(TruGlow[215]);
+  const [AA216, AA216S] = useImage(TruGlow[216]);
+  const [AA217, AA217S] = useImage(TruGlow[217]);
+  const [AA218, AA218S] = useImage(TruGlow[218]);
+  const [AA219, AA219S] = useImage(TruGlow[219]);
+
+  const [AA220, AA220S] = useImage(TruGlow[220]);
+  const [AA221, AA221S] = useImage(TruGlow[221]);
+  const [AA222, AA222S] = useImage(TruGlow[222]);
+  const [AA223, AA223S] = useImage(TruGlow[223]);
+  const [AA224, AA224S] = useImage(TruGlow[224]);
+  const [AA225, AA225S] = useImage(TruGlow[225]);
+  const [AA226, AA226S] = useImage(TruGlow[226]);
+  const [AA227, AA227S] = useImage(TruGlow[227]);
+ 
 
 
   const newImages = Array.of(
-    // [AA0, AA0S],
+    [AA0, AA0S],
     [AA1, AA1S],
     [AA2, AA2S],
     [AA3, AA3S],
@@ -839,6 +859,24 @@ const TruGlowArray = () => {
     [AA207, AA207S],
     [AA208, AA208S],
     [AA209, AA209S],
+    [AA210, AA210S],
+    [AA211, AA211S],
+    [AA212, AA212S],
+    [AA213, AA213S],
+    [AA214, AA214S],
+    [AA215, AA215S],
+    [AA216, AA216S],
+    [AA217, AA217S],
+    [AA218, AA218S],
+    [AA219, AA219S],
+    [AA220, AA220S],
+    [AA221, AA221S],
+    [AA222, AA222S],
+    [AA223, AA223S],
+    [AA224, AA224S],
+    [AA225, AA225S],
+    [AA226, AA226S],
+    [AA227, AA227S],
   );
   return newImages;
 };
