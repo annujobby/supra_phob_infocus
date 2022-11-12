@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
   padding: 0;
   margin: 0;
@@ -7,12 +9,28 @@ body {
   width: 100%;
 
 }
-
+/* h1{
+    font-family: Raleway, sans-serif;
+    font-weight: 100;
+} */
+.newClass{
+   animation: fadeIn 2s;
+   
+}
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
 .skeleton {
   background-size: 200px 100%;
   background-repeat: no-repeat;
   border-radius: 2px;
-  display: inline-block;
+  display: block;
   line-height: 1;
   width: 100%;
   animation: skeleton 500ms ease-in-out infinite;
@@ -128,9 +146,10 @@ body {
   padding: 0 15%;
 }
 .b1 {
-  font-size: 92pt;
-  font-weight: 100;
+  font-size: 55pt;
+  font-weight: 55;
   text-align: right;
+  text-transform: uppercase;
   
 }
 .b2 {
@@ -211,10 +230,11 @@ body {
   }
 
   .b1 {
-      font-size: 92pt;
-      font-weight: 100;
+    font-family: 'Raleway' sans-serif;
+      font-size: 55pt;
+      font-weight: 55;
       text-align: right;
-      
+      text-transform: uppercase;
   }
 
   .b2 {
