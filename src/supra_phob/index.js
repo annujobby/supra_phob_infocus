@@ -326,6 +326,5 @@ export const TruGlow = Array.of(
   A146,
   A147,
   A148,
-  
-  
+ 
 );
