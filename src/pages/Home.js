@@ -8,6 +8,7 @@ import * as Scroll from 'react-scroll';
 import ProductEnquirySection from '../../src/ProductEnquirySection';
 
 import Navbar from "./Navbar";
+import Product from '../components/Product'
 import Footer from './Footer';
 
 const Home = () => {
@@ -19,16 +20,16 @@ const Home = () => {
 
      
       <Navbar/>
-      <Controller>
+      {/* <Controller>
         <Scene duration="250%" triggerHook="onLeave" pin>
           {progress => (
-            <div class='newContainer'>
+            <div class='new'>
               <Sequence ref={ref} progress={progress} />
             </div>
           )}
         </Scene>
-      </Controller>
-      
+      </Controller> */}
+      <Product/>
 
       <ProductEnquirySection/>
     

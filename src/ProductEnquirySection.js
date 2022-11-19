@@ -19,7 +19,8 @@ const ButtonGroup = styled.div`
   display: block;
  `;
 
-const VIDEOS = <div  className="buttonCenter" style={{margin:'auto'}}><iframe width="640" height="320" src="https://www.youtube.com/embed/2DAFV2DI1PU" title="Legend Truglow FS1 | Surgical Microscope | AAOM | Appasamy Associates" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+const VIDEOS = <div  className="buttonCenter" style={{margin:'auto'}}><iframe width="640" height="320"  src="https://www.youtube.com/embed/wbOLl_GW6VA" title="Why Supra phob Infocus? | Advantages | Appasamy Associates" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 const BROCHURE = <div className="buttonCenter" style={{margin:'auto'}}>DOWNLOAD</div>
 const GALLERY  = <div className="buttonCenter" style={{margin:'auto'}}>IMAGES</div>
 const types = [{id:'VIDEOS',content: VIDEOS},{id:'BROCHURE',content: BROCHURE},{id:'GALLERY',content: GALLERY}];

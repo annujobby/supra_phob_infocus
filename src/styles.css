@@ -9,11 +9,11 @@ body {
   width: 100%;
 
 }
-
+/* 
 .newClass{
    animation: fadeIn 2s;
    
-}
+} */
 @keyframes fadeIn {
     0%{
         opacity: 0;
@@ -59,6 +59,31 @@ body {
     
     
 }
+
+.TFtable td {
+	font-weight: 200;
+}
+
+.product{
+    display: flex;
+    flex-direction: row-reverse;
+   /* align-items: center;
+   justify-content: center; */
+   /* min-width: 70%; */
+    justify-content: space-evenly;
+    margin: 0 3rem;
+}
+
+.supra{
+    display:flex;
+    flex-direction: column;
+    max-width:50vw;
+    min-width: 40vw;
+    text-align: left;
+    margin-left:-8rem;
+
+}
+
 @keyframes float {
 	0% {
 		
@@ -116,10 +141,11 @@ body {
   margin-left: 5%;
   font-weight: 200;
 }
-.content-image {
+/* .content-image {
  
-  padding: 5% 2%;
-}
+  /* padding: 14% 2%; */
+ 
+
 .newContainer {
   
   padding-top: 5%;
@@ -175,7 +201,7 @@ body {
     }
   .item {
       min-width: 50vw;
-      align-items: center;
+      align-items: left;
   }
   .heading {
       font-size: 40pt;
@@ -195,10 +221,28 @@ body {
       margin-left: 5%;
   }
   .content-image {
-      
-      width: 40vw;
+    /* position: fixed;
+      width: 35vw;
       padding: 5% 2%;
+      margin:'.5rem 2rem' */
+
+      position:fixed;
+      left:60%;
+      top:20%;
+      max-width:100vw;
+      max-height:60vh;
+      opacity: 1;
   }
+  .mobileView{
+    /* position: fixed;
+    left:-3%;
+    top:5%;
+    max-width: 100vw;
+    max-height:50vh;
+    opacity: 0.4; */
+    margin-right:10rem;
+    margin-top:8rem;
+}
 
   .newContainer {
       height: 100vh;
@@ -226,7 +270,43 @@ body {
       padding: 0 15%;
   }
 
-  .b1 {
+  .supraHeading{
+    margin-top: 5rem;
+  }
+
+  .TFtable {
+    margin-bottom: 15px;
+    width: 100%;
+    font-family: Raleway, sans-serif;
+    color: #fff;
+    border: 1px solid #494949;
+    border-top: none;
+  }
+  .TFtable th {
+    padding: 15px;
+    text-align: left;
+    font-weight: 800;
+    font-size: 15px;
+    border-top: #505050 1px solid;
+    border-left: #505050 1px solid;
+  }
+  .TFtable td {
+    font-size: 15px;
+    padding: 7px;
+    border-top: #505050 1px solid;
+    border-left: #505050 1px solid;
+  }
+  .TFtable td:first-child {
+    border-left: none;
+  }
+  .TFtable th:first-child {
+    border-left: none;
+  }
+  .TFtable tr:nth-child(even) {
+    background: #222222
+  }
+
+  /* .b1 {
     font-family: 'Raleway' sans-serif;
       font-size: 55pt;
       font-weight: 55;
@@ -247,10 +327,20 @@ body {
       text-align: right;
       
 
-}
+} */
 }
 
 @media (max-width: 1024px) {
+
+    .product{
+        display: flex;
+        flex-direction: column;
+       /* align-items: center; */
+       /* min-width: 70%; */
+        /* justify-content: space-evenly; */
+        /* margin: 3rem 1rem 1rem 5rem; */
+    }
+
   .heading {
       font-size: 40pt;
       margin-left: 0%;
@@ -335,12 +425,12 @@ body {
   .content {
       margin: 5%;
   }
-  .content-image {
+  /* .content-image {
       width: 90vw;
       /* height: 60vh; */
-      padding: 0%;
-      padding-bottom: 5%;
-  }
+      /* padding: 0%; */
+      /* padding-bottom: 5%; */
+   */
   .container1 {
       display: block;
       margin: 5%;
@@ -354,6 +444,38 @@ body {
       max-width: 90vw;
       margin: 0%;
   }
+
+  .TFtable {
+    margin-bottom: 15px;
+    width: 100%;
+    font-family: Raleway, sans-serif;
+    color: #fff;
+    border: 1px solid #494949;
+    border-top: none;
+  }
+  .TFtable th {
+    padding: 15px;
+    text-align: left;
+    font-weight: 800;
+    font-size: 15px;
+    border-top: #505050 1px solid;
+    border-left: #505050 1px solid;
+  }
+  .TFtable td {
+    font-size: 15px;
+    padding: 7px;
+    border-top: #505050 1px solid;
+    border-left: #505050 1px solid;
+  }
+  .TFtable td:first-child {
+    border-left: none;
+  }
+  .TFtable th:first-child {
+    border-left: none;
+  }
+  .TFtable tr:nth-child(even) {
+    background: #222222
+  }
   .button1{
     justify-content: center;
     margin-bottom: 20px;
@@ -365,6 +487,63 @@ body {
 }
 }
 @media (max-width: 680px) and (orientation: portrait) {
+
+    .product{
+        display: flex;
+        flex-direction: column;
+          align-items: center;
+   justify-content: center; 
+    }
+
+
+    .supra{
+        display:flex;
+        flex-direction: column;
+         max-width:80vw;
+        /* margin-left:-25rem; */
+        margin-left: 0;
+        font-size: 25px;
+        font-weight: 600;
+    
+    }
+    .supraHeading{
+        margin-top: 8.5rem;
+        font-size: 32px;
+        min-width: 20rem;
+        font-weight: 600;
+      }
+
+      .TFtable {
+        margin-bottom: 15px;
+        width: 100%;
+        font-family: Raleway, sans-serif;
+        color: #fff;
+        border: 1px solid #494949;
+        border-top: none;
+      }
+      .TFtable th {
+        padding: 15px;
+        text-align: left;
+        font-weight: 800;
+        font-size: 15px;
+        border-top: #505050 1px solid;
+        border-left: #505050 1px solid;
+      }
+      .TFtable td {
+        font-size: 13px;
+        padding: 7px;
+        border-top: #505050 1px solid;
+        border-left: #505050 1px solid;
+      }
+      .TFtable td:first-child {
+        border-left: none;
+      }
+      .TFtable th:first-child {
+        border-left: none;
+      }
+      .TFtable tr:nth-child(even) {
+        background: #222222
+      }
   .heading {
       font-size: xx-large;
       margin-left: 0%;
@@ -397,11 +576,29 @@ body {
       margin: 5%;
   }
   .content-image {
-      width: 90vw;
-     
+      /* width: 90vw;
+     position: fixed;
       padding: 0%;
-      padding-bottom: 5%;
+      padding-bottom: 5%; */
+
+      position: fixed;
+      left:31%;
+      top:38%;
+      max-width: 34vw;
+      max-height: 34vh;
+      opacity: 0.4;
   }
+
+.mobileView{
+    position: fixed;
+    left:-3%;
+    top:5%;
+    max-width: 100vw;
+    max-height:50vh;
+    opacity: 0.4;
+  
+}
+
   .container1 {
       display: block;
       margin: 5%;
